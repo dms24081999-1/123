@@ -6,4 +6,4 @@ def test_sample_single_word():
     grep_stdout =run.communicate(input=b'one\ntwo\nthree\nfour\n')[0]
     print(grep_stdout.decode())
     print(run.returncode)
-    assert 0==0
+    assert 0==1
